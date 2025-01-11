@@ -1,0 +1,53 @@
+{
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Beautiful Dracula Darker",
+    "workbench.startupEditor": "none",
+    "editor.fontFamily": "Comic Shanns, 'Mono Dark'",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.lineHeight": 1.7,
+    // "editor.fontFamily": "Fragment Mono",
+    // "editor.fontFamily": "Roboto",
+    // "editor.fontWeight": "bold",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 20,
+    "editor.lineNumbers": "on",
+    "explorer.confirmDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "reactSnippets.settings.importReactOnTop": false,
+    "editor.cursorBlinking": "expand",
+    "editor.find.cursorMoveOnType": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "material-icon-theme",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.env.windows": {},
+    "git.autofetch": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "window.zoomLevel": 1,
+    "vscode_custom_css.imports": [
+      "file:///home/devsujal/Coding/Custom-Vs-Code/custom.css"
+    ],
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "window.customTitleBarVisibility": "auto",
+    "editor.renderWhitespace": "none",
+    "editor.linkedEditing": true,
+    "files.exclude": {
+      "**/.git": false
+    },
+    "code-runner.runInTerminal": true,
+    "workbench.statusBar.visible": false
+  }
+  
