@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="none"/>
+  
+  <!-- Saucer -->
+  <ellipse cx="200" cy="320" rx="140" ry="30" fill="#e0e0e0"/>
+  <ellipse cx="200" cy="315" rx="130" ry="25" fill="#f0f0f0"/>
+  
+  <!-- Cup body with slight curve for dimension -->
+  <path d="M120,140 
+           C120,120 280,120 280,140
+           L260,300 
+           C260,320 140,320 140,300 
+           L120,140" 
+        fill="white" stroke="#333" stroke-width="3"/>
+  
+  <!-- Handle -->
+  <path d="M280,180 C330,180 330,240 280,240" 
+        fill="none" stroke="#fff" stroke-width="3"/>
+  
+  <!-- Exact Git logo from image -->
+  <g transform="translate(200,220) scale(0.7)">
+    <!-- Diamond background -->
+    <path d="M-70,0 L0,-70 L70,0 L0,70 Z" 
+          fill="#dd4c35"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="8" fill="white"/>
+    <!-- Branch lines -->
+    <path d="M0,0 L-35,-35 M0,0 L30,20" 
+          stroke="white" stroke-width="12" 
+          stroke-linecap="round"/>
+    <path d="M0, 0 L-35,-35 M0,0 L0,38" 
+          stroke="white" stroke-width="12" 
+          stroke-linecap="round"/>
+    <circle cx="-35" cy="-35" r="8" fill="white"/>
+    <circle cx="28" cy="19" r="8" fill="white"/>
+    <circle cx="0" cy="38" r="8" fill="white"/>
+  </g>
+  
+  <!-- Steam -->
+  <g opacity="1">
+    <path d="M160,100 Q180,80 200,100 Q220,80 240,100" 
+          fill="none" stroke="#fff" stroke-width="3" 
+          stroke-linecap="round">
+      <animate attributeName="opacity" 
+               values="0.3;0.7;0.3" 
+               dur="3s" 
+               repeatCount="indefinite"/>
+    </path>
+    <path d="M170,80 Q190,60 210,80 Q230,60 250,80" 
+          fill="none" stroke="#fff" stroke-width="2" 
+          stroke-linecap="round">
+      <animate attributeName="opacity" 
+               values="0.2;0.6;0.2" 
+               dur="4s" 
+               repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Cup rim highlight -->
+  <path d="M120,140 C120,130 280,130 280,140" 
+        fill="none" stroke="#e0e0e0" stroke-width="4"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f6f8fa"/>
+  
+  <!-- Local Repository Box -->
+  <rect x="50" y="50" width="250" height="400" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="175" y="90" text-anchor="middle" font-family="Arial" font-size="20" fill="#24292f">Local Repository</text>
+  
+  <!-- Working Directory -->
+  <rect x="70" y="120" width="210" height="80" rx="5" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+  <text x="175" y="160" text-anchor="middle" font-family="Arial" font-size="16" fill="#0969da">Working Directory</text>
+  
+  <!-- Staging Area -->
+  <rect x="70" y="220" width="210" height="80" rx="5" fill="#fff8c5" stroke="#9a6700" stroke-width="2"/>
+  <text x="175" y="260" text-anchor="middle" font-family="Arial" font-size="16" fill="#9a6700">Staging Area</text>
+  
+  <!-- Local Repository -->
+  <rect x="70" y="320" width="210" height="80" rx="5" fill="#ffebe9" stroke="#cf222e" stroke-width="2"/>
+  <text x="175" y="360" text-anchor="middle" font-family="Arial" font-size="16" fill="#cf222e">Commits</text>
+  
+  <!-- GitHub Box -->
+  <rect x="500" y="50" width="250" height="400" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="625" y="90" text-anchor="middle" font-family="Arial" font-size="20" fill="#24292f">GitHub</text>
+  
+  <!-- Remote Repository -->
+  <rect x="520" y="120" width="210" height="80" rx="5" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+  <text x="625" y="160" text-anchor="middle" font-family="Arial" font-size="16" fill="#0969da">Remote Repository</text>
+  
+  <!-- Pull Requests -->
+  <rect x="520" y="220" width="210" height="80" rx="5" fill="#fff8c5" stroke="#9a6700" stroke-width="2"/>
+  <text x="625" y="260" text-anchor="middle" font-family="Arial" font-size="16" fill="#9a6700">Pull Requests</text>
+  
+  <!-- Issues -->
+  <rect x="520" y="320" width="210" height="80" rx="5" fill="#ffebe9" stroke="#cf222e" stroke-width="2"/>
+  <text x="625" y="360" text-anchor="middle" font-family="Arial" font-size="16" fill="#cf222e">Issues</text>
+  
+  <!-- Arrows -->
+  <!-- git add -->
+  <path d="M175 200 L175 220" stroke="#57606a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="140" y="210" font-family="Arial" font-size="14" fill="#57606a">git add</text>
+  
+  <!-- git commit -->
+  <path d="M175 300 L175 320" stroke="#57606a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="140" y="310" font-family="Arial" font-size="14" fill="#57606a">git commit</text>
+  
+  <!-- git push -->
+  <path d="M280 160 C400 160, 400 160, 520 160" stroke="#57606a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="400" y="140" font-family="Arial" font-size="14" fill="#57606a">git push</text>
+  
+  <!-- git pull -->
+  <path d="M520 180 C400 180, 400 180, 280 180" stroke="#57606a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="400" y="200" font-family="Arial" font-size="14" fill="#57606a">git pull</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#57606a"/>
+    </marker>
+  </defs>
+</svg>

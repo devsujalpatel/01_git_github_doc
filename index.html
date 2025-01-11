@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-zinc-900 min-h-screen">
+    <nav
+      class="min-h-28 border-gray-800 border-2 fixed w-full bg-gray-900 flex items-center justify-between px-5"
+    >
+      <div class="w-56 m-3 flex items-center justify-center cursor-pointer">
+        <img class="w-28" src="assests/chai-logo.svg" alt="" />
+        <h2 class="text-gray-100 text-3xl text-center hover:text-gray-300">
+          Git chai
+        </h2>
+      </div>
+      <ul class="flex items-center justify-evenly w-52">
+        <li class="text-gray-100 text-3xl hover:text-gray-300 cursor-pointer">
+          <i class="fa-solid fa-house"></i>
+        </li>
+        <li class="text-gray-100 text-3xl hover:text-gray-300 cursor-pointer">
+          <i class="fa-brands fa-github"></i>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="lg:w-[13vw] w-[20vw] fixed mt-[138px] border-gray-800 border-2 bg-gray-900 h-screen md:flex items-start justify-start flex-col p-7 hidden "
+    >
+      <ul>
+        <li
+          class="my-4 text-gray-100 lg:text-2xl text-lg hover:text-gray-300 cursor-pointer"
+        >
+          <a href="#git-github">Git and Github</a>
+        </li>
+        <li
+          class="my-4 text-gray-100 lg:text-2xl text-lg hover:text-gray-300 cursor-pointer"
+        >
+          <a href="#installation">Installation</a>
+        </li>
+        <li
+          class="my-4 text-gray-100 lg:text-2xl text-lg hover:text-gray-300 cursor-pointer"
+        >
+          Git Basics
+        </li>
+        <li
+          id="git-advance"
+          class="my-4 text-gray-100 lg:text-2xl text-lg hover:text-gray-300 cursor-pointer"
+        >
+          Git Advance
+        </li>
+        <li
+          id="github"
+          class="my-4 text-gray-100 lg:text-2xl text-lg hover:text-gray-300 cursor-pointer"
+        >
+          Github
+        </li>
+        <li
+          id="git-push"
+          class="my-4 text-gray-100 lg:text-2xl text-lg hover:text-gray-300 cursor-pointer"
+        >
+          Github Push
+        </li>
+      </ul>
+    </div>
+    <section class="flex items-center lg:justify-end md:justify-center  min-h-screen justify-end">
+      <div
+        class="md:w-[70vw] lg:w-[84vw] w-[85vw] min-h-screen mt-32 bg-zinc-900 flex justify-start items-start flex-col"
+      >
+        <div id="git-github">
+          <h1 class="text-white md:text-5xl text-3xl mt-12">Git and Github</h1>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw]">
+            Let’s start with the basics. Git is a version control system that
+            allows you to track changes to your files and collaborate with
+            others. It is used to manage the history of your code and to merge
+            changes from different branches. I can understand that as of now
+            these terms like version control, branches, and merges are not
+            familiar to you. But don’t worry, we will learn them in this
+            tutorial.
+          </p>
+          <h2 class="text-white md:text-4xl text-2xl mt-12">
+            Git and Github are different
+          </h2>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw]">
+            Git is a version control system that is used to track changes to
+            your files. It is a free and open-source software that is available
+            for Windows, macOS, and Linux. Remember, GIT is a software and can
+            be installed on your computer. Github is a web-based hosting service
+            for Git repositories. Github is an online platform that allows you
+            to store and share your code with others. It is a popular platform
+            for developers to collaborate on projects and to share code. It is
+            not that Github is the only provider of Git repositories, but it is
+            one of the most popular ones.
+          </p>
+        </div>
+        <div id="installation">
+          <h2 class="text-white md:text-4xl text-2xl mt-12">Install Git</h2>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw]">
+            To install Git, you can use command line or you can visit official
+            website and download the installer for your operating system. Git is
+            available for Windows, macOS, and Linux and is available at
+            <a class="text-blue-500" href="https://git-scm.com/downloads"
+              >https://git-scm.com/downloads</a
+            >.
+          </p>
+          <h4 class="text-gray-300 md:text-2xl text-xl mt-4 mb-6">
+            After installing git check your version
+          </h4>
+          <code
+            class="mt-32 font-mono text-orange-400 bg-black p-4 border-2 border-gray-700"
+            >git --version</code
+          >
+        </div>
+        <div id="git-basics">
+          <h2 class="text-white md:text-4xl text-3xl mt-12">Git Basic</h2>
+          <h3 class="text-gray-300 md:text-3xl text-2xl mt-4 mb-4">Repository</h3>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw]">
+            A repository is a collection of files and directories that are
+            stored together. It is a way to store and manage your code. A
+            repository is like a folder on your computer, but it is more than
+            just a folder. It can contain other files, folders, and even other
+            repositories. You can think of a repository as a container that
+            holds all your code.
+          </p>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw] mb-6">
+            There is a difference between a software on your system vs tracking
+            a particular folder on your system. At any point you can run the
+            following command to see the current state of your repository:
+          </p>
+          <code
+            class="mt-32 font-mono text-orange-400 bg-black p-4 border-2 border-gray-700"
+            >git status</code
+          >
+          <h3 class="text-gray-300 md:text-3xl text-2xl mt-6 mb-6">Your config settings</h3>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw] mb-6">
+            Github has a lot of settings that you can change. You can change
+            your username, email, and other settings. Whenever you checkpoint
+            your changes, git will add some information about your such as your
+            username and email to the commit. There is a git config file that
+            stores all the settings that you have changed. You can make settings
+            like what editor you would like to use etc. There are some global
+            settings and some repository specific settings.
+          </p>
+          <p class="text-gray-200 mt-8 w-[80vw] md:w-[50vw] mb-6">
+            Let’s setup your email and username in this config file. I would
+            recommend you to create an account on github and then use the email
+            and username that you have created.
+          </p>
+          <code
+            class="mt-32 font-mono text-orange-400 md:w-[40vw] sm:w-[70vw] w-60vw text-sm sm:text-md block bg-black sm:p-4 py-2 px-1 border-2 border-gray-700"
+            >git config --global user.email "your-email@example.com"</code
+          >
+          <code
+            class="mt-2 font-mono text-orange-400 md:w-[40vw]  sm:w-[70vw] w-60vw text-sm sm:text-md block bg-black sm:p-4 py-2 px-1 border-2 border-gray-700"
+            >git config --global user.name "Your Name"</code
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
